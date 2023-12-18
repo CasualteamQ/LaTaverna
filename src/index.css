@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'avenger';
+    src: url('./fonts/avengeance_mightiest_avenger/AVENGER.otf');
+}
+@font-face {
+    font-family: 'manga';
+    src: url('./fonts/manga_temple/mangat.ttf');
+}
+.sombra{
+    text-shadow: 7.0px 0.5px 25px  black;
+}
