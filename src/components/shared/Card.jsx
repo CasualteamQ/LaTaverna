@@ -1,7 +1,7 @@
 import React from "react";
 import ProductDetail from "../ProductDetail";
 import { Link } from "react-router-dom";
-import Product from "../../pages/Product";
+import Product from "../../pages/productos";
 
 
 const Card = (props) => {

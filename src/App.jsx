@@ -16,10 +16,10 @@ import Card from "./components/shared/Card";
 import Cuadros from "./components/shared/Cuadros";
 import Layout from "./components/shared/Layout";
 import { Route, Routes } from "react-router-dom";
-import Product from "./pages/Product";
 import Productos from "./components/shared/Productos";
-import Hero from './components/shared/Hero';
-import ProductDetail from "./components/ProductDetail";
+import Hero from "./components/shared/Hero";
+import productos from "./pages/productos";
+import Carousel from './components/shared/Carousel'
 
 
 
@@ -39,7 +39,8 @@ function App() {
 <Routes>
 
   <Route path="/" element={<Layout/>} />
-  <Route path="/productos" element={<Productos/>}>Productos</Route>
+  <Route path="/productos" element={<productos/>} />
+  <Route path="/cuadros" element={<Cuadros/>}  />
 </Routes>
   return (
     <div className="bg-[#f7fff7] w-full min-h-screen">
@@ -76,7 +77,7 @@ function App() {
           </div>
           {/* Content */}
           <div>
-            <Hero/>
+          <Carousel/>
           </div>
         </div>
       </main>

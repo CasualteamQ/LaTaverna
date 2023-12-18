@@ -40,7 +40,7 @@ const Header = () => {
           <span className="text-[#fd0034ff]">Novedades!</span>
         </a> */}
             </Link>
-       <Link to="/productos"  className="py-2 pr-4 relative before:w-1/2 before:h-[2px] before:absolute before:bg-[#fd0034ff] before:left-0 before:rounded-full before:-bottom-[1px] hover:text-[#fd0034ff] transition-colors text-zinc-400   "> Productos
+       <Link to="productos"  className="py-2 pr-4 relative before:w-1/2 before:h-[2px] before:absolute before:bg-[#fd0034ff] before:left-0 before:rounded-full before:-bottom-[1px] hover:text-[#fd0034ff] transition-colors text-zinc-400   "> Productos
        {/*  <a href="#" className="py-2 pr-4 relative before:w-1/2 before:h-[2px] before:absolute before:bg-[#fd0034ff] before:left-0 before:rounded-full before:-bottom-[1px] hover:text-[#fd0034ff] transition-colors   ">
           Productos
         </a> */}

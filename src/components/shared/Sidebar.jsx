@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import productos from "../../pages/productos";
 import {
   RiHome6Line,
   RiShoppingBag2Line,
@@ -32,12 +34,11 @@ const Sidebar = (props) => {
             </a>
           </li>
           <li className="hover:bg-[#ecf4f3ff] p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
-            <a
-              href="#"
-              className="group-hover:bg-[#fd0034ff] p-4 flex justify-center rounded-xl text-[#252525] group-hover:text-white transition-colors"
-            >
-              <RiShoppingBag2Line className="text-2xl" />
-            </a>
+            <Link               className="group-hover:bg-[#fd0034ff] p-4 flex justify-center rounded-xl text-[#252525] group-hover:text-white transition-colors"
+ to='/productos'>
+          
+            </Link>
+         
           </li>
           <li className="hover:bg-[#ecf4f3ff] p-4 rounded-tl-xl rounded-bl-xl group transition-colors">
             <a

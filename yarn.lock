@@ -353,6 +353,11 @@
   resolved "https://registry.npmjs.org/@floating-ui/utils/-/utils-0.1.6.tgz"
   integrity sha512-OfX7E2oUDYxtBvsuS4e/jSn4Q9Qb6DzgeYtsAdkPZ47znpoNsMgZw0+tVijiv3uGNR6dgNlty6r9rzIzHjtd/A==
 
+"@glidejs/glide@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.npmjs.org/@glidejs/glide/-/glide-3.6.0.tgz"
+  integrity sha512-47Aa+JmYjY4xTFpTtYCwrqirmI1arnp1UZETwtWpbTPisXUAuxrdJxKJLH8KHFWMsSrLi9+AcfyfzDIuO75rEA==
+
 "@jridgewell/gen-mapping@^0.1.0":
   version "0.1.1"
   resolved "https://registry.npmjs.org/@jridgewell/gen-mapping/-/gen-mapping-0.1.1.tgz"
@@ -1335,6 +1340,20 @@ github-slugger@^2.0.0:
   resolved "https://registry.npmjs.org/github-slugger/-/github-slugger-2.0.0.tgz"
   integrity sha512-IaOQ9puYtjrkq7Y0Ygl9KDZnrf/aiUJYUpVf89y8kyaxbRG7Y1SrX/jaumrv81vc61+kiMempujsM3Yw7w5qcw==
 
+glide@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/glide/-/glide-0.2.0.tgz"
+  integrity sha512-Yq4N0+OLVBtQ/gegZAo54p/1ZWWjpNVBQ85Hr2V2JABifFs87vavAjME79Ej2lrOpNGK/WykRMvL1+MpoGYIIw==
+  dependencies:
+    tween.js "~0.14.0"
+
+glidejs@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npmjs.org/glidejs/-/glidejs-2.1.0.tgz"
+  integrity sha512-DWm2h7rv1BruHcDY/icf8re2mG6CCwiFzWbK5OweLz7OD6ljVEJ0O9dmxvvLxQei/apzbyhWCwyhL5itqrZkgQ==
+  dependencies:
+    jquery "2.2.*"
+
 glob-parent@^5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/glob-parent/-/glob-parent-5.1.2.tgz"
@@ -1645,6 +1664,11 @@ jiti@^1.19.1:
   version "1.21.0"
   resolved "https://registry.npmjs.org/jiti/-/jiti-1.21.0.tgz"
   integrity sha512-gFqAIbuKyyso/3G2qhiO2OM6shY6EPP/R0+mkDbyspxKazh8BXDC5FiFsUjlczgdNz/vfra0da2y+aHrusLG/Q==
+
+jquery@2.2.*:
+  version "2.2.4"
+  resolved "https://registry.npmjs.org/jquery/-/jquery-2.2.4.tgz"
+  integrity sha512-lBHj60ezci2u1v2FqnZIraShGgEXq35qCzMv4lITyHGppTnA13rwR0MgwyNJh9TnDs3aXUvd1xjAotfraMHX/Q==
 
 "js-tokens@^3.0.0 || ^4.0.0", js-tokens@^4.0.0:
   version "4.0.0"
@@ -3165,6 +3189,11 @@ tslib@^2.0.0:
   version "2.6.2"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+
+tween.js@~0.14.0:
+  version "0.14.0"
+  resolved "https://registry.npmjs.org/tween.js/-/tween.js-0.14.0.tgz"
+  integrity sha512-+kOicDWXrDnkVaVF7hSpEXSdskOq2NPdszdY4+DzL7Sy9W0SSqmqYBtoU4PjHhfZjre6gopcl2lXf1Ju4PM6/A==
 
 type-fest@^2.13.0:
   version "2.19.0"
